@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Aposentadoria</string>
+    <string name="app_name">Aposenta</string>
+    <string name="hint_idade">Idade</string>
+    <string name="helper_requerido">Requerido</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="mensagem_aposentado">Você ja deveria estar aposentado!</string>
+    <string name="mensagem_faltam_anos">Faltam %d anos para você se aposentar.</string>
+    <string name="nome_aluno">Ludmila Souza Santiago</string>
+
+    <string-array name="opcoes_genero">
+        <item>Feminino</item>
+        <item>Masculino</item>
+    </string-array>
 </resources>

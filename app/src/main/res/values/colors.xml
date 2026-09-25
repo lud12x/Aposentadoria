@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="degrade1">#F2BECF</color>
+    <color name="degrade2">#D15CE9</color>
+    <color name="degrade3">#A8DBF4</color>
+    <color name="cor_botao">#0284C7</color>
+    <color name="texto_principal">#0F172A</color>
+    <color name="red">#DC2626</color>
 </resources>
