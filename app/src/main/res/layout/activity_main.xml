@@ -16,19 +16,10 @@
         android:layout_height="50dp"
         android:entries="@array/opcoes_genero"
         android:padding="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <!--
-       EXPLICAÇÃO DOS ATRIBUTOS DO TEXTINPUTLAYOUT SOLICITADOS:
-        app:helperText: Texto informativo de ajuda abaixo do campo.
-        app:helperTextTextColor: Cor do texto informativo de ajuda.
-        app:counterEnabled: Ativa a exibição do contador de caracteres.
-        app:counterMaxLength: Limite máximo numérico exibido no contador.
-        app:endIconMode: Ativa o ícone de 'X' para limpar o texto digitado.
-    -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilIdade"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -49,11 +40,10 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etIdade"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:fontFamily="@font/tenada"
             android:inputType="number"
-            android:maxLength="3"
-            />
+            android:maxLength="3" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -68,8 +58,9 @@
         android:textSize="18sp"
         android:fontFamily="@font/tenada"
         android:backgroundTint="@color/cor_botao"
-        android:drawableStart="@drawable/calculadora1"
+        android:drawableLeft="@drawable/caculadoranormal"
         android:drawablePadding="8dp"
+        android:drawableTint="@android:color/white"
         app:layout_constraintTop_toBottomOf="@id/tilIdade"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -101,9 +92,5 @@
         app:layout_constraintTop_toBottomOf="@id/Resultado"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
