@@ -21,6 +21,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--
+       EXPLICAÇÃO DOS ATRIBUTOS DO TEXTINPUTLAYOUT SOLICITADOS:
+        app:helperText: Texto informativo de ajuda abaixo do campo.
+        app:helperTextTextColor: Cor do texto informativo de ajuda.
+        app:counterEnabled: Ativa a exibição do contador de caracteres.
+        app:counterMaxLength: Limite máximo numérico exibido no contador.
+        app:endIconMode: Ativa o ícone de 'X' para limpar o texto digitado.
+    -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilIdade"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -94,7 +102,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
